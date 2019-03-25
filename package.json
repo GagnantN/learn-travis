@@ -2,15 +2,21 @@
   "name": "learn-travis",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nelsonic/learn-travis.git"
+    "url": "git+https://github.com/nelsonic/learn-travis.git"
   },
   "description": "Simple nodejs, travis and grunt demo",
   "author": "https://twitter.com/nelsonic",
   "version": "1.0.0",
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.10.2"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint hello.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-travis/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-travis#readme",
+  "main": "hello.js",
+  "license": "ISC"
 }
